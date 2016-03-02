@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF726F551C8723ED00D547C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF726F541C8723ED00D547C9 /* AppDelegate.swift */; };
+		AF726F571C8723ED00D547C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF726F561C8723ED00D547C9 /* ViewController.swift */; };
+		AF726F5A1C8723ED00D547C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF726F581C8723ED00D547C9 /* Main.storyboard */; };
+		AF726F5C1C8723ED00D547C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF726F5B1C8723ED00D547C9 /* Assets.xcassets */; };
+		AF726F5F1C8723ED00D547C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF726F5D1C8723ED00D547C9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF726F511C8723ED00D547C9 /* MyHood-Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyHood-Udemy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF726F541C8723ED00D547C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF726F561C8723ED00D547C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF726F591C8723ED00D547C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF726F5B1C8723ED00D547C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF726F5E1C8723ED00D547C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF726F601C8723ED00D547C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF726F4E1C8723ED00D547C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF726F481C8723ED00D547C9 = {
+			isa = PBXGroup;
+			children = (
+				AF726F531C8723ED00D547C9 /* MyHood-Udemy */,
+				AF726F521C8723ED00D547C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF726F521C8723ED00D547C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF726F511C8723ED00D547C9 /* MyHood-Udemy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF726F531C8723ED00D547C9 /* MyHood-Udemy */ = {
+			isa = PBXGroup;
+			children = (
+				AF726F541C8723ED00D547C9 /* AppDelegate.swift */,
+				AF726F561C8723ED00D547C9 /* ViewController.swift */,
+				AF726F581C8723ED00D547C9 /* Main.storyboard */,
+				AF726F5B1C8723ED00D547C9 /* Assets.xcassets */,
+				AF726F5D1C8723ED00D547C9 /* LaunchScreen.storyboard */,
+				AF726F601C8723ED00D547C9 /* Info.plist */,
+			);
+			path = "MyHood-Udemy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF726F501C8723ED00D547C9 /* MyHood-Udemy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF726F631C8723ED00D547C9 /* Build configuration list for PBXNativeTarget "MyHood-Udemy" */;
+			buildPhases = (
+				AF726F4D1C8723ED00D547C9 /* Sources */,
+				AF726F4E1C8723ED00D547C9 /* Frameworks */,
+				AF726F4F1C8723ED00D547C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyHood-Udemy";
+			productName = "MyHood-Udemy";
+			productReference = AF726F511C8723ED00D547C9 /* MyHood-Udemy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF726F491C8723ED00D547C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Emmanuel Darmon";
+				TargetAttributes = {
+					AF726F501C8723ED00D547C9 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AF726F4C1C8723ED00D547C9 /* Build configuration list for PBXProject "MyHood-Udemy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF726F481C8723ED00D547C9;
+			productRefGroup = AF726F521C8723ED00D547C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF726F501C8723ED00D547C9 /* MyHood-Udemy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF726F4F1C8723ED00D547C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF726F5F1C8723ED00D547C9 /* LaunchScreen.storyboard in Resources */,
+				AF726F5C1C8723ED00D547C9 /* Assets.xcassets in Resources */,
+				AF726F5A1C8723ED00D547C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF726F4D1C8723ED00D547C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF726F571C8723ED00D547C9 /* ViewController.swift in Sources */,
+				AF726F551C8723ED00D547C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF726F581C8723ED00D547C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF726F591C8723ED00D547C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF726F5D1C8723ED00D547C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF726F5E1C8723ED00D547C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF726F611C8723ED00D547C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF726F621C8723ED00D547C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF726F641C8723ED00D547C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyHood-Udemy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmanueldarmon.MyHood-Udemy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF726F651C8723ED00D547C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MyHood-Udemy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emmanueldarmon.MyHood-Udemy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF726F4C1C8723ED00D547C9 /* Build configuration list for PBXProject "MyHood-Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF726F611C8723ED00D547C9 /* Debug */,
+				AF726F621C8723ED00D547C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF726F631C8723ED00D547C9 /* Build configuration list for PBXNativeTarget "MyHood-Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF726F641C8723ED00D547C9 /* Debug */,
+				AF726F651C8723ED00D547C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF726F491C8723ED00D547C9 /* Project object */;
+}

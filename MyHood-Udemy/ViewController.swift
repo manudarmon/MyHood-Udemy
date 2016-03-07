@@ -16,6 +16,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        let post = Post(imagePatch: "", title: "Post 1", description: "Post 1 description")
+        let post1 = Post(imagePatch: "", title: "Post 2", description: "Post 2 description")
+        let post2 = Post(imagePatch: "", title: "Post 3", description: "Post 3 description")
+        
+        posts.append(post)
+        posts.append(post1)
+        posts.append(post2)
+        
+        tableView.reloadData()
+    
     }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {

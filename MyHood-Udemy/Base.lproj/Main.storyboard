@@ -46,15 +46,15 @@
                                     <constraint firstAttribute="trailing" secondItem="hkv-kh-JSs" secondAttribute="trailing" constant="8" id="wo6-AR-UHW"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="87" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EPz-JO-Cei">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="87" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EPz-JO-Cei">
                                 <rect key="frame" x="20" y="73" width="560" height="507"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="87" id="0Yw-DI-XS5">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="87" id="0Yw-DI-XS5" customClass="PostCell" customModule="MyHood_Udemy" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="560" height="87"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0Yw-DI-XS5" id="v8j-or-3cK">
-                                            <rect key="frame" x="0.0" y="0.0" width="560" height="86.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="560" height="87"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="barrel-water-bridge" translatesAutoresizingMaskIntoConstraints="NO" id="y1v-7Y-RL6">
@@ -95,6 +95,11 @@
                                                 <constraint firstItem="ZmZ-aX-CZ6" firstAttribute="trailing" secondItem="v8j-or-3cK" secondAttribute="trailingMargin" id="nia-ln-M5Z"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descLbl" destination="ZmZ-aX-CZ6" id="hab-nF-WA5"/>
+                                            <outlet property="postImg" destination="y1v-7Y-RL6" id="a1v-hd-Ugc"/>
+                                            <outlet property="titleLbl" destination="egA-xX-9mq" id="CIP-Db-rMW"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
